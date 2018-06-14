@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import {HomeComponent} from './components/home/home.component'
 import {ErrorComponent} from './components/error/error.component'
 import {ProductosListComponent} from './components/productos/productos-list.component'
+import {ProductosAddComponent} from './components/productos/producto-add.component'
+import {ProductoDetailComponent} from './components/productos/producto.detail.component'
 
 //Rutas
 import {routing, appRoutingProviders} from './app.routing'
@@ -16,7 +18,9 @@ import {routing, appRoutingProviders} from './app.routing'
     AppComponent,
     HomeComponent,
     ErrorComponent,
-    ProductosListComponent
+    ProductosListComponent,
+    ProductosAddComponent,
+    ProductoDetailComponent
   ],
   imports: [
     BrowserModule,

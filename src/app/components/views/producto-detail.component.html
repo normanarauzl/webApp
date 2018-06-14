@@ -1,0 +1,8 @@
+<h1>{{title}}</h1>
+<div *ngIf="!producto">
+    <p>Cargando..</p>
+</div>
+
+<div *ngIf="producto">
+    <h3>{{producto.nombre}}</h3>
+</div>
